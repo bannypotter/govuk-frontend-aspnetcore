@@ -8,6 +8,7 @@ namespace GovUk.Frontend.AspNetCore.TagHelpers
     /// <summary>
     /// Represents the error message in a GDS form group component.
     /// </summary>
+    [HtmlTargetElement(SelectTagHelper.ErrorMessageTagName, ParentTag = SelectTagHelper.TagName)]
     [OutputElementHint(ComponentGenerator.ErrorMessageElement)]
     public class FormGroupErrorMessageTagHelper2 : TagHelper
     {

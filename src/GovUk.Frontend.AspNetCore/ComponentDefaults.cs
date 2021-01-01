@@ -36,11 +36,6 @@ namespace GovUk.Frontend.AspNetCore
             public const int HeadingLevel = 1;
         }
 
-        public static class Select
-        {
-            public const bool Disabled = false;
-        }
-
         public static class Tabs
         {
             public const string Title = "Contents";
